@@ -50,7 +50,7 @@ class GuestReservation(BasePage):
 
     @driverhandler
     def Click_Book_Now(self):
-        self.driver.execute_script("window.scrollTo(0, 300);")
+        self.driver.execute_script("window.scrollTo(0, 500);")
         self.click_element("BookNow")
 
     def Get_Customer_Name(self):
