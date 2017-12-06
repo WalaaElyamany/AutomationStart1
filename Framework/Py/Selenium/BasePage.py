@@ -1,7 +1,7 @@
 import os
-from DriverFactory import DriverFactory
-from LocatorParser import LocatorParser
-from WebElementWait import WebElementWait
+from Framework.Py.Selenium.DriverFactory import  DriverFactory
+from Framework.Py.Selenium.LocatorParser import LocatorParser
+from Framework.Py.Selenium.WebElementWait import WebElementWait
 
 
 class BasePage(object):

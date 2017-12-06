@@ -7,7 +7,7 @@ class DriverFactory(object):
     @staticmethod
     def get_driver(browser):
         exec_path = os.path.join(os.path.dirname(__file__), "..", "..", "Tools", "Drivers")
-        print 'Starting {} browser session.'.format(browser)
+        print('Starting {} browser session.'.format(browser))
 
         if browser == 'Chrome':
             driver = webdriver.Chrome(executable_path=exec_path + "/chromedriver.exe")
